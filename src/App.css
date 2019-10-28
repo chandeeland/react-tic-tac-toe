@@ -3,12 +3,11 @@
 }
 
 .App-logo {
-  height: 40vmin;
+
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,4 +18,25 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.Board {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-template-rows: 250px 250px 250px;
+  grid-gap: 10px;
+}
+
+.Cell {
+  background-color: #ccc;
+  font-size: 10em;
+  color: #fff;
+  vertical-align: center;
+  align: center;
+  box-sizing: border-box;
+
+}
+
+.Winner {
+  background-color: #0F0;
 }
